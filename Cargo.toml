@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 # NOTE: Remember to remove the feature before releasing your game! Otherwise you will need to include libbevy_dylib alongside your game if you want it to run. If you remove the "dynamic" feature, your game executable can run standalone.
 bevy= { version = "0.7.0", features = ["dynamic"] }
+bevy_config_cam="0.3.0"
